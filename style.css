@@ -36,7 +36,18 @@
 .menu--buttons {
     grid: 2 / 2 / 3 / 3;
 }
-
+.menu--buttons > button {
+    appearance: none;
+    padding: .5rem .9rem;
+    border: none;
+    border-radius: 25px;
+    margin: .1rem;
+    background-color: rgb(30, 146, 182);
+    color: white;
+}
+.menu--buttons > button:hover, .menu--buttons > button:active {
+    background-color: rgb(12, 93, 117);
+}
 .main {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
