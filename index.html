@@ -19,40 +19,40 @@
             <div class="sidebar-child sidebar-mid">
                 <ul>
                     <!-- TODO Icons -->
-                    <li>Home</li>
-                    <li>Profile</li>
-                    <li>Messages</li>
-                    <li>History</li>
-                    <li>Tasks</li>
-                    <li>Communities</li>
+                    <li><img src="./Assets/Icons/home.png" alt="Home icon"><p>Home</p></li>
+                    <li><img src="./Assets/Icons/account-box-outline.png" alt="Profile icon"><p>Profile</p></li>
+                    <li><img src="./Assets/Icons/message-reply.png" alt="Messages icon"><p>Messages</p></li>
+                    <li><img src="./Assets/Icons/clock-time-eight.png" alt="History icon"><p>History</p></li>
+                    <li><img src="./Assets/Icons/sticker-check-outline.png" alt="Tasks icon"><p>Tasks</p></li>
+                    <li><img src="./Assets/Icons/account-group.png" alt=""><p>Communities</p></li>
                 </ul>
             </div>
 
             <div class="sidebar-child sidebar-lower">
                 <ul>
                     <!-- TODO Icons -->
-                    <li>Settings</li>
-                    <li>Support</li>
-                    <li>Privacy</li>
+                    <li><img src="./Assets/Icons/cog.png" alt="Settings icon"> <p>Settings</p></li>
+                    <li><img src="./Assets/Icons/chat-question.png" alt="Support icon"> <p>Support</p></li>
+                    <li><img src="./Assets/Icons/shield-check.png" alt="Privacy icon"> <p>Privacy</p></li>
                 </ul>
             </div>
         </div>
 
         <div class="wrapper-child menu">
             <div class="menu-child menu--search-bar">
-                <!-- TODO search magnifying glass icon -->
-                <input type="text" name="search">
+                <label for="search-bar"><img src="./Assets/Icons/magnify.png" alt="Search bar icon"></label>
+                <input type="text" name="search" id="search-bar">
             </div>
 
             <div class="menu-child menu--profile">
-                <img src="./" alt="Your profile picture">
+                <img src="https://source.unsplash.com/random/100x100" alt="Your profile picture">
                 <p>Hi there,</p>
                 <h2>Morgan Oakley (@morgan)</h2>
             </div>
 
             <div class="menu-child menu--mini-profile">
-                <!-- TODO Bell icon -->
-                <img src="./" alt="Your profile picture">
+                <img src="./Assets/Icons/bell-ring-outline.png" alt="Bell icon" class="bell-icon">
+                <img src="https://source.unsplash.com/random/100x100" alt="Your profile picture">
                 <h3>Morgan Oakley</h3>
             </div>
 
@@ -101,50 +101,48 @@
             </div>
 
             <div class="main-child main--sidebar">
+
                 <div class="main--sidebar-child announcements">
                     <h3>Announcements</h3>
-                    <div class="announcement-content">
-                        <h5>Site Maintenance</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus ratione illum perferendis odit.</p>
-                    </div>
-                    <div class="announcement-content">
-                        <h5>Community Share Day</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus ratione illum perferendis odit.</p>
-                    </div>
-                    <div class="announcement-content">
-                        <h5>Updated Privacy Policy</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus ratione illum perferendis odit.</p>
+                    <div class="announcement-contents-wrapper">
+                        <div class="announcement-content">
+                            <h5>Site Maintenance</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus ratione illum perferendis odit.</p>
+                        </div>
+                        <div class="announcement-content">
+                            <h5>Community Share Day</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus ratione illum perferendis odit.</p>
+                        </div>
+                        <div class="announcement-content">
+                            <h5>Updated Privacy Policy</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus ratione illum perferendis odit.</p>
+                        </div>
                     </div>
                 </div>
 
                 <div class="main--sidebar-child trending">
                     <h3>Trending</h3>
-                    <div class="trending-content">
-                        <!-- TODO pic -->
-                        <p>🐕</p>
-                        <p><strong>@tegan</strong></p>
-                        <p>World Peace Builder</p>
-                    </div>
-
-                    <div class="trending-content">
-                        <!-- TODO pic -->
-                        <p>🐕</p>
-                        <p><strong>@morgan</strong></p>
-                        <p>Super Cool Projects</p>
-                    </div>
-
-                    <div class="trending-content">
-                        <!-- TODO pic -->
-                        <p>🐕</p>
-                        <p><strong>@kendall</strong></p>
-                        <p>Life Changing App</p>
-                    </div>
-
-                    <div class="trending-content">
-                        <!-- TODO pic -->
-                        <p>🐕</p>
-                        <p><strong>@alex</strong></p>
-                        <p>No Traffic Maker</p>
+                    <div class="trending-content-wrapper">
+                        <div class="trending-content">
+                            <img height="50px" width="50px" style="border-radius: 50%;" src="https://source.unsplash.com/random/75x75" alt="Your profile picture">
+                            <p><strong>@teagen</strong></p>
+                            <p>World Peace Builder</p>
+                        </div>
+                        <div class="trending-content">
+                            <img height="50px" width="50px" style="border-radius: 50%;" src="https://source.unsplash.com/random/110x110" alt="Your profile picture">                        
+                            <p><strong>@morgan</strong></p>
+                            <p>Super Cool Projects</p>
+                        </div>
+                        <div class="trending-content">
+                            <img height="50px" width="50px" style="border-radius: 50%;" src="https://source.unsplash.com/random/200x200" alt="Your profile picture">                        
+                            <p><strong>@kendall</strong></p>
+                            <p>Life Changing App</p>
+                        </div>
+                        <div class="trending-content">
+                            <img height="50px" width="50px" style="border-radius: 50%;" src="https://source.unsplash.com/random/150x150" alt="Your profile picture">                        
+                            <p><strong>@alex</strong></p>
+                            <p>No Traffic Maker</p>
+                        </div>
                     </div>
                 </div>
             </div>
